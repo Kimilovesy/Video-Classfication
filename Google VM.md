@@ -12,9 +12,10 @@ scp /path/to/file kimi@timovm:~
 
 ### Upload the whole directory
 ```shell
+scp -r /path/to/file kimi@timovm:/path/to/file
 ```
 
 ## Remove files
 ```shell
-rm /path/to/file
+rm -r /path/to/file
 ```
